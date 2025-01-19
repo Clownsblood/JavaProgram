@@ -1,0 +1,119 @@
+1. 1GByte 等于多少 MBytes？
+   A. 1000
+   B. 1024
+   C. 512
+   D. 2048
+   **答案**：B。因为在计算机存储单位换算中，是以 1024 为倍数进阶，1GByte = 1024 MBytes。
+
+2. 操作系统要管理硬件，以下哪项不属于其基本管理范畴？
+   A. 管理网络带宽
+   B. 管理内存
+   C. 管理装置
+   D. 负责行程管理
+   **答案**：A。操作系统主要负责管理内存、装置、行程以及系统呼叫等，管理网络带宽并非基础且必备的核心管理范畴。
+
+3. Unix 最初是由谁利用组译语言写成的？
+   A. Dennis Ritchie
+   B. Bill Joy
+   C. Ken Thompson
+   D. Andrew Tannenbaum
+   **答案**：C。Unix 的前身是由贝尔实验室的 Ken Thompson 利用组译语言写成的。
+
+4. 以下哪个操作系统是在 1984 年制作出来的？
+   A. Linux
+   B. BSD
+   C. Minix
+   D. Windows
+   **答案**：C。1984 年由 Andrew Tannenbaum 制作出 Minix 操作系统。
+
+5. GNU 计划由谁提倡发起？
+   A. Linus Torvalds
+   B. Richard Stallman
+   C. Bill Joy
+   D. Ken Thompson
+   **答案**：B。1984 年由 Richard Stallman 提倡 GNU 计划，倡导自由软件。
+
+6. Linux 操作系统最底层的数据被称作什么？
+   A. Shell
+   B. Kernel
+   C. BIOS
+   D. Driver
+   **答案**：B。Linux 操作系统最底层的数据为 “核心，Kernel”。
+
+7. 目前 Linux 稳定版本的版本号特征通常是什么？
+   A. 奇数版
+   B. 偶数版
+   C. 小数版
+   D. 无规律
+   **答案**：B。目前 Linux 的发展中，稳定版本多为偶数版，如 2.6.X，适合商业与家用环境使用。
+
+8. 1Byte 等于多少 bits？
+   A. 2
+   B. 4
+   C. 8
+   D. 16
+   **答案**：C。1Byte = 8bits ，这是计算机基础的存储单位换算关系。
+
+9. 以下哪个属于类 Unix 操作系统？
+   A. Minix
+   B. Windows
+   C. macOS（早期版本）
+   D. BSD
+   **答案**：D。1977 年由 Bill Joy 释出的 BSD (Berkeley Software Distribution) 属于 Unix - like 的操作系统。
+
+10. GPL 授权模式规定，软件不可进行以下哪种操作？
+    A. 自由修改
+    B. 单纯仅贩卖其软件
+    C. 自由复制
+    D. 自由再发行
+    **答案**：B。GPL 授权模式规定，任何 GPL (General Public License) 软件均不可单纯仅贩卖其软件，也不可修改软件授权 。
+
+1. 操作系统的主要功能包括以下哪些？
+   A. 管理内存
+   B. 驱动硬件
+   C. 制作办公文档
+   D. 负责行程管理
+   **答案**：ABD。操作系统主要用于管理与驱动硬件，涵盖管理内存、负责行程管理等功能，制作办公文档属于应用软件的功能范畴。
+
+2. 以下哪些事件对 Linux 的成功有推动作用？
+   A. Minix 的存在
+   B. GNU 计划
+   C. Internet 的发展
+   D. POSIX 标准
+   **答案**：ABCD。Linux 成功的地方主要在于： Minix (Unix)、GNU、Internet、POSIX 及虚拟团队的产生。
+
+3. Linux 发行版通常包含以下哪些部分？
+   A. Kernel
+   B. Tools
+   C. Free Software
+   D. Documentations
+   **答案**：ABCD。Linux distributions 为 Linux 的 Kernel + Tools + Free Software + Documentations + 可完整安装的程序所制成的一套完整的系统。
+
+4. 以下哪些是在 1970 年代对操作系统发展有重要意义的事件？
+   A. Unix 在 1971 - 1973 年间由 C 语言改写
+   B. 1977 年 BSD 的释出
+   C. 1979 年 AT&T 收回 Unix 版权
+   D. 1970 年计算机首次应用于商业办公
+   **答案**：AB。1971 - 1973 年间 Dennis Ritchie 以 C 程序语言对 Unix 进行改写；1977 年 Bill Joy 释出 BSD，都推动了操作系统发展，1979 年的事件不属于 70 年代的发展推动事件，而计算机首次应用于商业办公时间不符。
+
+5. 自由软件在 GNU 计划倡导下，拥有以下哪些自由？
+   A. 自由取得
+   B. 自由复制
+   C. 自由修改
+   D. 自由再发行
+   **答案**：ABCD。GNU 计划倡导自由软件可以 “自由的取得、复制、修改与再发行”。
+
+1. 最早的操作系统可以直接供用户日常办公使用，无需其他软件。
+   **答案**：×。最早的操作系统仅在驱动与管理硬件，要日常办公使用，还需应用软件或者壳程序辅助。
+
+2. Linux 是由芬兰人 Linus Torvalds 在 1991 年独立完成开发的，没有借助任何前人成果。
+   **答案**：×。Linux 的成功得益于 Minix、GNU 等前人成果，并非完全独立无借助。
+
+3. BSD 是由微软公司开发的一款操作系统。
+   **答案**：×。1977 年由 Bill Joy 释出 BSD (Berkeley Software Distribution) ，和微软没有关系。
+
+4. 计算机磁盘容量单位换算和普通的十进制换算一样，都是以 1000 为倍数。
+   **答案**：×。计算机主要以二进制作为单位，磁盘容量单位换算以 1024 为倍数。
+
+5. GNU 计划中的 GPL 授权软件可以随意修改软件授权。
+   **答案**：×。GPL 授权模式规定，任何 GPL 软件均不可修改软件授权。
