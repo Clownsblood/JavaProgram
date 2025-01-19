@@ -1,18 +1,23 @@
 package com.phantom.Exercise;
-
 import java.io.*;
 
 public class ExerciseSystem {
     public static void main(String[] args) {
-//        String filePath = "../quwstion.txt";
-//        try{
-//            BufferedReader br = new BufferedReader(new FileReader(filePath));
-//        }catch (IOException e){
-//            e.printStackTrace(); // 处理IO异常
-//        }
+        String filePath = "question.txt";
+        try (FileReader fr = new FileReader(filePath);
+             BufferedReader br = new BufferedReader(fr)) {
+            int character;
+            while ((character = br.read()) != -1) {
+                System.out.print((char) character); // 打印每一个字符
+            }
+        } catch (IOException e) {
+            e.printStackTrace(); // 处理IO异常
+        }
+
         new WriteToFileExample().sout();
     }
 }
+
 class WriteToFileExample {
     public void sout() {
         String filePath = "output.txt"; // 文件路径
